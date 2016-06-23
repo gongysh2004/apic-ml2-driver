@@ -31,7 +31,7 @@ from neutron.agent import rpc as agent_rpc
 from neutron.common import config as common_cfg
 from neutron.common import utils as neutron_utils
 from neutron.db import agents_db
-from neutron.i18n import _LE, _LI
+from neutron._i18n import _LE, _LI
 from neutron import manager
 from neutron import service
 import oslo_messaging
